@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="LogoWhite1.png">
+  <title>Minlay.Creates</title>
+  
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+  const socialIcons = document.querySelector(".social-icons");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    socialIcons.classList.toggle("active");
+  });
+});
+</script>
+
+
+<body>
+  <header class="main-header">
+   <div class="logo-title">
+  <div class="logo">
+    <a href="#"><img src="LogoWhite1.png" alt="Logo"></a>
+  </div>
+  <a href="#" class="headername">Minlay.Creates</a>
+</div>
+
+  <nav class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Get In Touch</a>
+  </nav>
+
+  <div class="social-icons">
+<ul class="example-2">
+
+  <li class="icon-content">
+    <a
+      href="https://mail.google.com/mail/u/0/?fs=1&to=jppatrickminlay@gmail.com&tf=cm"
+      aria-label="Gmail"
+      data-social="Gmail"
+    >
+      <div class="filled"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-Gmail"
+        viewBox="0 0 16 16"
+        xml:space="preserve"
+      >
+        <path
+        d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"  
+        fill="currentColor"
+        ></path>
+      </svg>
+    </a>
+  </li>
+
+  <li class="icon-content">
+    <a
+      href="https://www.linkedin.com/in/patrick-minlay-691265398/"
+      aria-label="LinkedIn"
+      data-social="linkedin"
+    >
+      <div class="filled"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-linkedin"
+        viewBox="0 0 16 16"
+        xml:space="preserve"
+      >
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </a>
+  </li>
+  <li class="icon-content">
+    <a
+      href="https://www.facebook.com/patrickminlay/"
+      aria-label="Facebook"
+      data-social="Facebook"
+    >
+      <div class="filled"></div>
+      <svg
+      viewBox="0 0 16 16"
+      class="bi bi-facebook"
+      fill="currentColor"
+      height="16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+        fill="currentColor"
+        ></path>
+    </svg>
+    </a>
+  </li>
+</ul>
+  </div>
+
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<section>
+  <h1 class="name"> John Paul Patrick S. Minlay </h1>
+  <h1 class="title"> UI/UX and Graphic Designer</h2>
+  <p class="course"> Information Technology ● Multimedia Arts and Animation</p>
+  <div class="profile-wrapper">
+  <img src="Minlay_Formal.png" alt="Profile Image">
+</div>
+  <a class="resumebtn" href="Patrick Minlay Resume.pdf" download="Patrick Minlay Resume.pdf"> Resume </a>
+
+</section>
+
+ <section id="projects">
+    <h2> Projects</h2>
+    <div class="col">
+                <div class="card-container">
+                    <div class="card1">
+                        <h2>Obsidiny</h2>
+                        <p>A semi-open world visual novel game made from unity for a capstone project</p>
+                        <a href="#project1" class="book-btn">See More</a>
+                    </div>
+                    <div class="card2">
+                        <h2>DigiDrops</h2>
+                        <p>E-Commerce website made with PHP and mySQL for a school project</p>
+                        <a href="#project2" class="book-btn">See More</a>
+                    </div>
+                    <div class="card3">
+                        <h2>Logos</h2>
+                        <p>Personally Made Logos</p>
+                        <a href="#project3" class="book-btn">See More</a>
+                    </div>
+                    <div class="card4">
+                        <h2>UI Designs</h2>
+                        <p>Personally User Interfaces</p>
+                        <a href="#project4" class="book-btn">See More</a>
+                    </div>
+                    <div class="card5">
+                        <h2>Photography</h2>
+                        <p>Photos I have taken</p>
+                        <a href="#project5" class="book-btn">See More</a>
+                    </div>
+
+                    <div class="card6">
+                        <h2>Other Works</h2>
+                        <p>Other works I have done</p>
+                        <a href="#project6" class="book-btn">See More</a>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+  
+
+   <!--Project 1-->
+        <div class="room_details" id="project1">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> 
+            <h3>Obsidiny</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/Obsidiny_1.png">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/Obsidiny_1.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Obsidiny_2.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Obsidiny_3.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Obsidiny_4.png" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">Obsidiny</div>
+                    <div class="price">Capstone Project</div>
+                    <div class="det">
+                        <p>
+                          Obsidiny is a semi-open world visual novel game made with Unity using the programming language C#. Obsidiny is a game with multiple endings based on the
+                          player's decision throughout the game. You can play the game by downloading it on this website <a href="https://byte-sized-studios.itch.io/obsidiny">Obsidiny</a>
+                        </p>
+                        <p>
+                            <br><b>Type: </b> Game
+                            <br><b>Role in the Project:</b> Lead Programmer & Developer
+                        </p>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project1-->
+
+        <!--Project2-->
+        <div class="room_details" id="project2">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> <!-- Close button -->
+            <h3>DigiDrops</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/UI (6).png">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/UI (6).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/UI (7).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/UI (8).png" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">DigiDrops</div>
+                    <div class="price">School Project</div>
+                    <div class="det">
+                        <p>
+                          DigiDrops is an E-Commerce site made for a school project using mySQL and PHP. DigiDrops has multiple functions like sign up and login as well as 
+                          users can sell a virtual product like movies, songs, apps as well as buy products from other users. Unfortunately DigiDrops is not hosted online.
+                        </p>
+                        <p>
+                            <br><b>Type: </b> E-Commerce Website
+                            <br><b>Role in the Project:</b> Full Stack
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project2-->
+
+         <!--Project3-->
+        <div class="room_details" id="project3">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> <!-- Close button -->
+            <h3>Logos</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/Logo (8).png">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/Logo (8).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Logo.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Logo (4).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Logo (7).png" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">Logos</div>
+                    <div class="price">Personally Made</div>
+                    <div class="det">
+                        <p>
+                          Logos made by me for projects with Adobe Photoshop and Canva.
+                        </p>
+                        <p>
+                            <br><b>Type: </b> Logos
+                            <br><b>Role in the project: </b>Designer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project3-->
+
+         <!--Project4-->
+        <div class="room_details" id="project4">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> <!-- Close button -->
+            <h3>UI Designs</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/UI (4).png">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/UI (4).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/UI.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/UI (2).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/UI (5).png" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">UI Designs</div>
+                    <div class="price">Personally Made</div>
+                    <div class="det">
+                        <p>
+                          UI designs made personally with HTML and CSS for projects 
+                        </p>
+                        <p>
+                            <br><b>Type: </b> UI/UX
+                            <br><b>Role in the project: </b>Programmer & Designer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project4-->
+        
+         <!--Project5-->
+        <div class="room_details" id="project5">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> <!-- Close button -->
+            <h3>Photography</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/PEOPLE2.jpg">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/PEOPLE2.jpg" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/TRAD2.JPG" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/TRAD1.JPG" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Photo (3).jpg" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Photo (5).jpg" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Photo (4).jpg" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">Photography</div>
+                    <div class="price">Personally shot photos</div>
+                    <div class="det">
+                        <p>
+                          Photos I have shot during our school's photography class and my time as part of the creatives committee on school organizations. 
+                          Photos shot with DSLR camera and phone camera 
+                        </p>
+                        <p>
+                            <br><b>Type: </b> Photography
+                            <br><b>Role in the project: </b>Photographer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project5-->
+
+        <!--Project6-->
+        <div class="room_details" id="project6">
+            <div class="close-btn" onclick="window.location.href='#projects'">&times;</div> <!-- Close button -->
+            <h3>Other Works</h3>
+            <div class="flex-box">
+                <div class="left">
+                    <div class="big-img">
+                        <img src="Imgs/Others.png">
+                    </div>
+                    <div class="images">
+                        <div class="small-img">
+                            <img src="Imgs/Others.png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Others_1.jpg" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Others (3).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/Others (4).png" onclick="showImg(this)">
+                        </div>
+                        <div class="small-img">
+                            <img src="Imgs/377107645_200403783051004_6185661692789093407_n.png" onclick="showImg(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pname">Others</div>
+                    <div class="price">Other Projects</div>
+                    <div class="det">
+                        <p>
+                          Other projects I have done for projects and for personal use made with Photoshop and Canva.
+                        </p>
+                        <p>
+                            <br><b>Type: </b> Others
+                            <br><b>Role in the project: </b>Designer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Project6-->
+
+        <script>
+  function showImg(picElement) {
+    // Find the closest parent with class "left"
+    const leftSection = picElement.closest('.left');
+    // Then find the big image inside that section
+    const bigImg = leftSection.querySelector('.big-img img');
+    // Update its source
+    bigImg.src = picElement.src;
+  }
+</script>
+
+
+</section>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Patrick, an aspiring UI/UX and Graphic Designer. My work focuses on digital graphics,
+      animation, UI/UX design, and creative technology. I have hands-on experience creating visual
+      outputs such as logos, videos, games, posters, UI/UX designs, and other graphic artworks. 
+      I also have lead groups in various projects such as making an e-commerce website, developing a game, made logos, as well as
+      directed, edited, videographed, a short film.  
+    </p>
+     <section>
+    <h2> Skills</h2>
+    <div class="skill">
+      <div class="skill-card">
+        <h3> Languages</h3>
+        <div class="skill-badges">
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">C++</span>
+        <span class="badge">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3> Graphic Design</h3> 
+      <div class="skill-badges">
+        <span class="badge">Adobe Photoshop</span>
+        <span class="badge">Canva</span>
+        <span class="badge">Figma</span>  
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3> Video Editing</h3>
+      <div class="skill-badges">
+        <span class="badge">Adobe Premiere</span>
+        <span class="badge">DaVinci Resolve</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3> Others</h3>
+      <div class="skill-badges">
+        <span class="badge">Unity</span>
+        <span class="badge">Photograpy</span>
+      </div>
+    </div>
+  </div>
+  </section>
+
+    <h2>Education</h2>
+    <h3>BS in Information Technology Specializing in Multimedia arts and Animation </h3>
+    <p>National University - Manila (2023-Present)</p>
+
+    <h3>BS in Information Technology</h3>
+    <p>Centro Escolar University - Manila (2021-2023)</p>
+    <br><br>
+    <h2>Experience</h2>
+    <h3> Capstone Lead Programmer</h3>
+    <p> ● Lead game developer and programmer of the game Obsidiny using Unity and C#</p><br>
+
+    <h3>Creatives Committee</h3>
+    <p> National University Manila Wizards (2024-2025)</p>
+    <p> ● Photographer and Creative Committee for the university's organization</p>
+
+    <p> Centro Escolar University Student Council (2022-2023)</p>
+    <p> ● Photographer, Creative and Physical Committee for the university student council</p>
+    <br><br>
+
+    <h2>Certifications</h2>
+    <h3> Fortinet Certified Fundamentals Cybersecurity
+       <a class="certbtn" href="Imgs/Minlay_Fortinet.pdf" download="Imgs/Minlay_Fortinet.pdf"> Download Certificate </a>
+    </h3>
+    <h3> Unity Junior Programmer</h3>
+        <a class="certbtn" href="Imgs/Minlay_Unity.pdf" download="Imgs/Minlay_Unity.pdf"> Download Certificate </a>
+    <h3> TESDA NCII in Computer System Servicing </h3>
+        <a class="certbtn" href="Imgs/Minlay_TESDA.pdf" download="Imgs/Minlay_TESDA.pdf"> Download Certificate </a>
+  </section>
+<br>
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p class="contactopen"> I am currently open for opportunities and would love to hear from you</p>
+      <a class="contactbtn" href="https://mail.google.com/mail/u/0/?fs=1&to=jppatrickminlay@gmail.com&tf=cm"><img class="contactimg" src="Imgs/gmail.png">Gmail<br> 
+        <span class="contact-text">jppatrickminlay@gmail.com</span></a>
+      <a class="contactlnbtn" href="https://www.linkedin.com/in/patrick-minlay-691265398/"><img class="contactimg" src="Imgs/linkedin.png">LinkedIn<br> 
+        <span class="contact-text">Patrick Minlay</span></a>
+      <a class="contactfbbtn" href="https://www.facebook.com/patrickminlay/"><img class="contactimg" src="Imgs/Facebook.png">Facebook<br> 
+        <span class="contact-text">Patrick Minlay</span></a>
+  </section>
+
+  <footer>
+    © 2025 John Paul Patrick S. Minlay - UI/UX Designer. All rights reserved.
+  </footer>
+</body>
+</html>
